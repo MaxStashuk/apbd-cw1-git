@@ -2,6 +2,6 @@
 {
     public static string GetMessage()
     {
-        return "Welcome to APBD!";
+        return "Welcome to the APBD calculator!";
     }
 }
