@@ -9,4 +9,10 @@
         }
         return sum;
     }
+    
+    public static double CalculateAverage(int[] numbers)
+    {
+        if (numbers.Length == 0) return 0.0;
+        return (double)CalculateSum(numbers) / numbers.Length;
+    }
 }
